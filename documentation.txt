@@ -1,0 +1,57 @@
+📱 BLOC 1 : Anti-Dépendance Intelligente
+Blocage intelligent d'apps avec analyse comportementale
+Mode Hardcore : challenges obligatoires pour débloquer
+Mode Nuit intelligent : rituel coucher personnalisé + réveil zen
+IA prédictive : anticipe les moments de faiblesse ("Vendredi 20h approche...")
+🎮 BLOC 2 : Gamification Révolutionnaire
+Défis personnalisés : "24h sans Instagram", "30min lecture/soir"
+Avatar évolutif : compagnon virtuel qui reflète ta santé numérique
+Système XP/Niveaux : Bronze → Argent → Or → Diamant
+Badges & Trophées : collectionnables avec rareté (commun → légendaire)
+👥 BLOC 3 : Social & Communauté
+Guildes de focus : missions collectives entre amis/collègues
+Classements bienveillants : coopération > compétition
+Système d'encouragements entre amis
+Mentorat communautaire : utilisateurs avancés → nouveaux
+🤖 BLOC 4 : Coaching IA Personnalisé
+Coach conversationnel : ton modulable (amical/strict/humoristique)
+Prédiction comportementale : Machine Learning embarqué
+Conseils sur mesure : selon habitudes, contexte, émotions
+Interventions préventives : avant les moments de crise
+📊 BLOC 5 : Bien-être Intégré
+Dashboard complet : temps écran, focus score, qualité sommeil
+Intégration santé : hydratation, activité physique, pauses
+Points bien-être : convertibles en récompenses réelles
+Suivi sommeil connecté (Apple Health/Google Fit)
+🏢 ARCHITECTURE MULTI-TENANT (B2C + B2B)
+👤 Utilisateurs Individuels (B2C)
+Abonnement : Free / Premium / Lifetime
+Gamification complète avec amis
+Coach IA personnel
+🏢 Entreprises (B2B)
+Multi-tenant sécurisé : chaque entreprise = organisation isolée
+SSO Entreprise : Google/Microsoft/Okta
+Admin Console (admin.deconnect.app) : gestion licences, stats agrégées
+RGPD-friendly : pas de surveillance individuelle
+Facturation centralisée : par siège via Stripe
+🎯 GAMIFICATION DÉTAILLÉE
+💎 Système de Points & Niveaux
+Sources XP : focus, sommeil, défis, événements IRL, bien-être
+Ligues : Bronze (0-999 XP) → Argent → Or → Platine → Diamant
+Validation serveur : anti-triche + plafonds quotidiens
+QR Code + GPS : validation événements réels (sport, méditation)
+🏆 Récompenses & Impact
+In-app : avatars, thèmes, badges exclusifs
+Premium temporaire : déblocage fonctionnalités avancées
+Impact social : conversion points → dons caritatifs, maraudes
+🔧 STACK TECHNIQUE PRÉVU
+Mobile : Flutter (Android + iOS)
+Backend : Supabase (PostgreSQL + RLS + Real-time)
+IA/ML :
+TensorFlow Lite (prédictions embarquées)
+OpenAI GPT-3.5 (coaching conversationnel)
+Blocage Apps :
+Android : Service d'Accessibilité + Overlay
+iOS : Screen Time API + Shortcuts
+Paiements : Stripe (B2C + B2B)
+Admin : Web app dédiée (admin.deconnect.app)

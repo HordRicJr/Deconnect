@@ -43,3 +43,25 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Environment variables et configuration sensible
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+*.env
+# MAIS on garde .env.example pour le partage
+!.env.example
+
+# Secrets et clés API
+secrets/
+*.key
+*.pem
+*.p12
+*.jks
+
+# Configuration Supabase locale
+supabase/.env
+supabase/config.toml
